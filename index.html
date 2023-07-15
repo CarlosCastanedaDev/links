@@ -2,13 +2,42 @@
 <html lang="en">
 <head>
   <style>
+    
     body {
-      padding: 40px 0
+      padding: 40px 0;
+      background-color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
     }
 
     .banner-image {
       width: 128px;
       border-radius: 50%;
+    }
+
+    .name {
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    h2 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: -10px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .thumbnail {
@@ -17,12 +46,38 @@
       border-radius: 48px;
       object-fit: cover;
     }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .social-icons a {
+      color: #6246ea;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: #6246ea;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #fffffe;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+      font-size: 1.2rem;
+    }
   </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My link in bio</title>
 </head>
 <body>
+  <div class="items">
   <div class="banner">
     <img src="assets/chucks.png" alt="Carlos Castaneda pic" class="banner-image">
   </div>
@@ -84,6 +139,7 @@
       Command Line Basics
       </a>
   </div>
+</div>
   
 </body>
 </html>
