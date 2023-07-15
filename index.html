@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    body {
+      padding: 40px 0
+    }
+
+    .banner-image {
+      width: 128px;
+      border-radius: 50%;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My link in bio</title>
 </head>
 <body>
   <div class="banner">
-    <img src="chucks.jpg" alt="Carlos Castaneda pic" width="200px">
+    <img src="assets/chucks.png" alt="Carlos Castaneda pic" class="banner-image">
   </div>
 
   <div class="name">
@@ -32,19 +49,40 @@
     </a>
   </div>
 
+  <h2>Developer Toolbelt</h2>
   <div class="link">
-    <img src="" alt="">
-    <a href="" target="_blank"></a>
+    <img src="assets/mdn.jpeg" alt="MDN logo" class="thumbnail">
+    <a href="https://developer.mozilla.org/en-US/" target="_blank">
+      Mozilla Developer Network (MDN)
+      </a>
   </div>
 
   <div class="link">
-    <img src="" alt="">
-    <a href="" target="_blank"></a>
+    <img src="assets/css.jpeg" alt="CSS tricks logo" class="thumbnail">
+    <a href="https://cssreference.io/" target="_blank">
+      A Visual Guide to CSS
+      </a>
   </div>
 
   <div class="link">
-    <img src="" alt="">
-    <a href="" target="_blank"></a>
+    <img src="assets/flex.png" alt="flexbox image" class="thumbnail">
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">
+      A Complete Guide to Flexbox
+      </a>
+  </div>
+
+  <div class="link">
+    <img src="assets/fonts.jpeg" alt="random fonts" class="thumbnail">
+    <a href="https://fonts.google.com/" target="_blank">
+      Google Fonts
+      </a>
+  </div>
+
+  <div class="link">
+    <img src="assets/command.png" alt="command line prompt" class="thumbnail">
+    <a href="https://www.softcover.io/read/fc6c09de/unix_commands/basics" target="_blank">
+      Command Line Basics
+      </a>
   </div>
   
 </body>
